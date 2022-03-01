@@ -60,7 +60,7 @@ public class Main {
 		System.out.println(nrReverse(number));
 		scanner.close();
 		
-		
+		System.out.println("HAHAHAHAHAHAH change");
 		
 	}
 
