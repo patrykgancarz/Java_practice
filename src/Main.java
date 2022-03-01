@@ -6,12 +6,30 @@ public class Main {
 
 		// Zad 1
 		/*
-		 * Scanner scanner = new Scanner(System.in);
-		 * System.out.println("Write a sentence to reverse"); String text =
-		 * scanner.nextLine(); System.out.println("Input: \n" + text);
-		 * System.out.println("Output"); System.out.println(reverse(text));
-		 * scanner.close();
+		 * 1. Word reversal
+		 * 
+		 * For this challenge, the input is a string of words, and the output should be
+		 * the words in reverse but with the letters in the original order. For example,
+		 * the string “Dog bites man” should output as “man bites Dog.”
+		 * 
+		 * After you’ve solved this challenge, try adding sentence capitalization and
+		 * punctuation to your code. So, the string “Codecademy is the best!” should
+		 * output as “Best the is Codecademy!”
 		 */
+		
+		// simple solution - done, add capitalisation and punctuation later
+		
+//		  Scanner scanner = new Scanner(System.in);
+//		  System.out.println("Write a sentence to reverse"); 
+//		  String text = scanner.nextLine(); 
+		  String[] text = {"Dog bites man", "Codeacademy is the best!", "The cake is a lie"}; 
+		  int i = 0;
+		  while(i<text.length)	{
+			  System.out.println("Input:  \t" + text[i] + "\nOutput: \t" + reverse(text[i])); //Shuold probably use printf to format it nicely. Bodged it with additional " " after Input:
+			  i++;
+		  }
+//		  scanner.close();
+		 
 		
 		//Zad 2
 		
@@ -54,11 +72,11 @@ public class Main {
 		
 		// Zad 6 DO POPRAWKI
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Write a decimal number");
-		double number = scanner.nextDouble();
-		System.out.println(nrReverse(number));
-		scanner.close();
+		/*
+		 * Scanner scanner = new Scanner(System.in);
+		 * System.out.println("Write a decimal number"); double number =
+		 * scanner.nextDouble(); System.out.println(nrReverse(number)); scanner.close();
+		 */
 		
 
 		
